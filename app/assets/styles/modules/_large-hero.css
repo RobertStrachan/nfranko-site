@@ -1,0 +1,57 @@
+.large-hero {
+    position: relative;
+    border-bottom: 10px solid $mainPink;
+
+    &__image {
+        display: block;
+    }
+
+    &__text-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    &__title {
+        font-weight: 300;
+        font-family: 'Roboto Slab', serif;
+        font-size: 2.4rem;
+        color: $mainRed;
+        margin: 0;
+
+        @mixin atSmall {
+            font-size: 4.8rem;
+        }
+    }
+
+    &__subtitle {
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        color: $mainPink;
+        margin: 0;
+
+        @mixin atSmall {
+            font-size: 2.9rem;
+        }
+    }
+
+    &__description {
+        font-family: 'Satisfy', cursive;       
+        font-weight: 100;
+        color: $mainRed;
+        font-size: 1.2rem;
+        text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+        max-width: 35rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        @mixin atSmall {
+            font-size: 1.9rem;
+        }
+    }
+
+}

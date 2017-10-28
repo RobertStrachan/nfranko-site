@@ -2,16 +2,17 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>   
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,300,400,500,700|Satisfy" rel="stylesheet">
     <title>N. Franko | Indie Romance Author</title>
     <meta name="keywords" content="eBooks, romantic comedies, romance, Amazon Kindle, indie authors">
     <meta name="description" content="N. Franko is a romance writer living in Canada.">
+    <link rel="stylesheet" href="temp/styles/styles.css">
 </head>
 <body>
     <header>
-        <div>
-            <a href="#">Subscribe</a>
-        </div>
+        
+            <a class="btn" href="#">Subscribe</a>
+        
         <nav>
             <ul>
                 <li><a href="#books">Books</a></li>
@@ -21,38 +22,58 @@
         </nav>
     </header>
 
-    <div class="large-hero"> 
-        <img src="assets/images/hero--large.jpg">
-        <h1>[N. Franko]</h1>
-        <h2>Indie Romance Author</h2>
-        <p><strong>Happily Ever After</strong> is just page turn away...</p>
+    <div class="large-hero">
+        <picture>
+            <source srcset="assets/images/hero--large.jpg" media="(min-width: 1380px)">
+            <source srcset="assets/images/hero--medium.jpg" media="(min-width: 990px)">
+            <source srcset="assets/images/hero--small.jpg" media="(min-width: 640px)">
+            <img src="assets/images/hero--smaller.jpg" alt="marble texture background" class="large-hero__image">
+        </picture>
+      <div class="large-hero__text-content">
+        <div class ="wrapper">
+            <h1 class="large-hero__title">[N. Franko]</h1>
+            <h2 class="large-hero__subtitle">Indie Romance Author</h2>
+            <p class="large-hero__description"><strong>Happily Ever After</strong> is just page turn away...</p>
+            <a class ="btn btn--large" href="#">Subscribe</a>
+        </div class>
+      </div>
     </div>
-    <div id="#books">
-        <h2>Books</h2>
-            <div>
-                <img src="assets/images/technically-scripted-cover.jpg">
-                <h3>Technically Scripted</h3>
-                <h4>Book one in the Julie, Stacy LA series</h4>
-                <p>Cupcake ipsum dolor sit amet marzipan chupa chups. Jelly beans bear claw I love tart sweet muffin lollipop. Dragée tiramisu I love fruitcake croissant apple pie caramels. Halvah halvah I love.</p>
-                <p>I love cupcake powder carrot cake. Brownie topping jelly beans caramels. Ice cream caramels bonbon topping. Oat cake tiramisu I love icing I love.</p>
-            </div>
-            <div>
+    <div id="#books" class="page-section">
+        <div class="wrapper">
+            <h2 class="headline headline--centered headline--b-margin-small">Books</h2>
+            <div class="row row--gutters">
+                <div class="row__medium-6 row__b-margin-until-medium">
+                    <div class="wrapper wrapper--medium">
+                        <img src="assets/images/technically-scripted-cover.jpg" alt="Technically Scripted Book Cover" class="wrapper--shadow">     
+                    </div>
+                     <div class="generic-content-container">
+                         <h3 class="headline headline--small headline--narrow headline--b-margin-small">Technically Scripted</h3>         
+                         <h4>Book one in the Comedy of Errors trilogy</h4>
+                        <p>Cupcake ipsum dolor sit amet marzipan chupa chups. Jelly beans bear claw I love tart sweet muffin lollipop. Dragée tiramisu I love fruitcake croissant apple pie caramels. Halvah halvah I love.</p>
+                        <p>I love cupcake powder carrot cake. Brownie topping jelly beans caramels. Ice cream caramels bonbon topping. Oat cake tiramisu I love icing I love.</p>    
+                    </div>
+                    </div>
+                <div class="row__medium-6">
                 <img src="assets/images/what-the-heart-wants-cover.jpg">
-                <h3>What The Heart Wants</h3>
-                <h4>Book one Three Summit</h4>
+                <h3 class="headline headline--small headline--narrow">What The Heart Wants</h3>
+                <h4>Book one in the Fairland Romance series</h4>
                 <p>Cupcake ipsum dolor sit. Amet toffee pastry I love dragée icing. Carrot cake I love ice cream oat cake bonbon. Donut bonbon pie tootsie roll liquorice lollipop gummies gingerbread marshmallow.</p>
                 <p>Bear claw toffee wafer donut. Oat cake I love liquorice gingerbread jelly-o carrot cake jujubes jelly beans marzipan. I love pie chocolate bar gingerbread fruitcake ice cream chocolate cake I love liquorice.</p>
-            </div>         
+                </div>
+             </div>        
+        </div>   
     </div>
-    <div id="#about">
-        <h2 id="#about">About</h2>
-        <img src="assets/images/typewriter-nfranko.jpg">
-        <h3>N. Franko</h3>
-        <p>Cupcake ipsum dolor sit amet chocolate bar cake cake. Biscuit wafer icing pudding chocolate bar pastry chocolate bar cotton candy. Cake halvah chocolate I love I love pastry cotton candy chocolate cake.</p>
-        <p>Chocolate dragée jujubes chocolate cake topping I love bonbon. Dragée brownie halvah I love chocolate cake. Croissant jujubes I love. Bonbon oat cake fruitcake cupcake ice cream soufflé bonbon.</p>
+    <div id="#about" class="page-section page-section--pink">
+        <div class="wrapper">
+             <h2 id="#about" class="headline headline--centered headline--white">About</h2>
+            <img src="assets/images/typewriter-nfranko.jpg">
+            <h3 class="headline headline--white headline--small headline--narrow">N. Franko</h3>
+            <p>Cupcake ipsum dolor sit amet chocolate bar cake cake. Biscuit wafer icing pudding chocolate bar pastry chocolate bar cotton candy. Cake halvah chocolate I love I love pastry cotton candy chocolate cake.</p>
+            <p>Chocolate dragée jujubes chocolate cake topping I love bonbon. Dragée brownie halvah I love chocolate cake. Croissant jujubes I love. Bonbon oat cake fruitcake cupcake ice cream soufflé bonbon.</p>
+            </div>
     </div>
     <footer>
-        <p>Copyright &copy; 2017 N. Franko. All rights reserved.<a href="#">Subscribe</a></p>
+        <p>Copyright &copy; 2017 N. Franko. All rights reserved.<a class="btn" href="#">Subscribe</a></p>
     </footer>
 
 </body>
