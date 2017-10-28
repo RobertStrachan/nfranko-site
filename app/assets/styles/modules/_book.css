@@ -1,0 +1,51 @@
+.book {
+    position: relative;
+    margin-bottom: 4rem;
+    
+    
+    &__title {
+        font-weight: 500;
+        font-size: 1.9rem;
+        color: $mainPink;
+        margin-bottom: .5rem;
+        margin-top: 2rem;
+        text-align: center;
+
+     @mixin atSmall {
+        font-size: 1.875rem;
+        }
+    }
+
+    &__subtitle {
+        color: $mainRed;
+        font-size: 1.2rem;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 1.1rem;
+    }
+
+    &__cover {
+        box-shadow: 10px 10px 5px #888888;
+        max-width: 404px;
+    }
+
+    &__description {
+        background-color: rgba(255, 255, 255, 0.9);
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0 1.8125rem 1px 1.8125rem;
+        max-width: 404px;
+        height: 645px;
+
+        @mixin atMedium {
+            padding-top: 4rem;
+        }
+
+        p {
+            margin-bottom: .5;
+        }
+    }
+ 
+}

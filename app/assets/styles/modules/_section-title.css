@@ -1,0 +1,11 @@
+.section-title {
+    font-size: 1.9rem;
+    font-weight: 300;
+    color: $mainPink;
+    text-align: center;
+
+    @mixin atSmall {
+        font-size: 3.75rem;
+    }
+
+}

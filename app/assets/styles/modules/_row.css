@@ -25,4 +25,17 @@
         }
     }
 
+    /** Begin Equal Height Rules **/
+
+    /* &--equal-height-at-medium {
+        @mixin atMedium {
+            display: flex;
+        }
+
+        & > div {
+            float: none;
+            display: flex;
+        }
+    } */
+
 }
