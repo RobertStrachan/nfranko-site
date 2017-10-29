@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 class Modal {
     constructor() {
         this.closeModalButton = $('.book__modal--close');
@@ -26,26 +28,4 @@ class Modal {
 
 }
 
-var modal = new Modal();
-
-
-
-
-
-
-// const openModal = document.querySelector('.book__modal--open'),
-// closeModal = document.querySelector('.book__modal--close'),
-// modal = document.querySelector('.book_description');
-
-// function openModalButton(modal) {
-//     var modal = document.querySelector('.book__description');
-//     modal.classList.add('book_description--is-visible');
-// }
-
-// openModal.addEventListener('click', function(){
-//     openModalButton();
-// });
-
-
-
-
+export default Modal;

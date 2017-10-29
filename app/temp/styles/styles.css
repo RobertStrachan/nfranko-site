@@ -716,69 +716,6 @@ a {
         font-weight: 700;
     }
 
-<<<<<<< HEAD
-.section-title {
-    font-size: 1.9rem;
-    font-weight: 300;
-    color: #F7A4B9;
-    text-align: center;
-
-}
-
-@media(min-width: 530px) {
-
-.section-title {
-        font-size: 3.75rem
-
-}
-    }
-
-.book {
-    position: relative;
-    margin-bottom: 4rem;
- 
-}
-
-.book__title {
-        font-weight: 500;
-        font-size: 1.9rem;
-        color: #F7A4B9;
-        margin-bottom: .5rem;
-        margin-top: 2rem;
-        text-align: center;
-    }
-
-@media(min-width: 530px) {
-
-.book__title {
-        font-size: 1.875rem
-    }
-    }
-
-.book__subtitle {
-        color: #C71F13;
-        font-size: 1.2rem;
-        font-weight: 300;
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 1.1rem;
-    }
-
-.book__cover {
-        -webkit-box-shadow: 10px 10px 5px #888888;
-                box-shadow: 10px 10px 5px #888888;
-        max-width: 404px;
-    }
-
-.book__description {
-        background-color: rgba(255, 255, 255, 0.9);
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding: 0 1.8125rem 1px 1.8125rem;
-        max-width: 404px;
-        height: 645px;
-=======
 .site-footer {
     background-color: #dbd9d9;
     padding: .5rem 0;
@@ -840,21 +777,10 @@ a {
         position: absolute;
         top: 10px;
         right: 10px;
->>>>>>> header
     }
 
 @media(min-width: 800px) {
 
-<<<<<<< HEAD
-.book__description {
-            padding-top: 4rem
-    }
-    }
-
-.book__description p {
-            margin-bottom: .5;
-        }
-=======
 .site-header__menu-icon {
             display:none
     }
@@ -891,4 +817,147 @@ a {
         text-decoration: none;
         padding: 20px 0;
     }
->>>>>>> header
+
+.book {
+    position: relative;
+    margin-bottom: 4rem;
+    max-width: 404px;
+ 
+}
+
+.book__title {
+        font-weight: 500;
+        font-size: 1.9rem;
+        color: #F7A4B9;
+        margin-bottom: .5rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+@media(min-width: 530px) {
+
+.book__title {
+        font-size: 1.875rem
+    }
+    }
+
+.book__subtitle {
+        color: #C71F13;
+        font-size: 1.2rem;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 1.1rem;
+    }
+
+.book__cover {
+        -webkit-box-shadow: 10px 10px 5px #888888;
+                box-shadow: 10px 10px 5px #888888;
+        max-width: 404px;
+    }
+
+.book__description {
+        background-color: rgba(255, 255, 255, 0.9);
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0 1.8125rem 1px 1.8125rem;
+        max-width: 404px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+.book__description--is-visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+@media(min-width: 800px) {
+
+.book__description {
+            padding-top: 4rem;
+            height: 645px
+    }
+    }
+
+.book__description p {
+            margin-bottom: .5;
+        }
+
+.book__description--visbile-at-medium {
+            display: none;
+        }
+
+@media(min-width: 800px) {
+
+.book__description--visbile-at-medium {
+                display: block
+        }
+    }
+
+.book__modal--close {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background-color: rgba(247,164,185, .7);
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 1rem;
+        -webkit-transform: translateY(0) scale(1);
+                transform: translateY(0) scale(1);
+        -webkit-transform-origin: 100% 0;
+                transform-origin: 100% 0;
+        color: #FFF;
+        text-align: center;
+        line-height: 14px;
+        cursor: pointer;
+        
+
+    }
+
+@media(min-width: 800px) {
+
+.book__modal--close {
+            width: 2rem;
+            height: 2rem;
+            font-size: 2rem;
+            line-height: 26px
+        
+
+    }
+    }
+
+.book__modal--open {
+        font-family: 'Satisfy', cursive; 
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background-color: rgba(247,164,185, .7);
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 1rem;
+        -webkit-transform: translateY(0) scale(1);
+                transform: translateY(0) scale(1);
+        -webkit-transform-origin: 100% 0;
+                transform-origin: 100% 0;
+        color: #FFF;
+        text-align: center;
+        line-height: 20px;
+        cursor: pointer;
+        
+
+    }
+
+@media(min-width: 800px) {
+
+.book__modal--open {
+            width: 2rem;
+            height: 2rem;
+            font-size: 2rem;
+            line-height: 36px
+        
+
+    }
+    }
