@@ -1,0 +1,37 @@
+.site-header {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+
+
+    @mixin atMedium {
+        background-color: rgba($mainPink, .3);
+    }
+
+    &__btn-container {
+        float: right;
+    }
+
+    &__menu-content {
+        display: none;
+
+        @mixin atMedium {
+            display: block;
+        }
+    }
+
+    &__menu-icon {
+        width: 20px;
+        height: 20px;
+        background-color: $mainPink;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        @mixin atMedium {
+            display:none;
+        }
+    }
+
+    
+}

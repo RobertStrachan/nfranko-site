@@ -9,17 +9,22 @@
     <link rel="stylesheet" href="temp/styles/styles.css">
 </head>
 <body>
-    <header>
-        
-            <a class="btn" href="#">Subscribe</a>
-        
-        <nav>
-            <ul>
-                <li><a href="#books">Books</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="#blog">Blog</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="wrapper">
+            <div class="site-header__menu-icon"></div>
+            <div class="site-header__menu-content">
+                <div class="site-header__btn-container">
+                    <a class="btn btn--top" href="#">Subscribe</a>
+                </div>
+                <nav class="primary-nav primary-nav--pull-right">
+                <ul>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
     </header>
 
     <div class="large-hero">
@@ -77,9 +82,11 @@
             <p>Chocolate dragée jujubes chocolate cake topping I love bonbon. Dragée brownie halvah I love chocolate cake. Croissant jujubes I love. Bonbon oat cake fruitcake cupcake ice cream soufflé bonbon.</p>
             </div>
     </div>
-    <footer>
-        <p>Copyright &copy; 2017 N. Franko. All rights reserved.<a class="btn" href="#">Subscribe</a></p>
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p><span class="site-footer__text">Copyright &copy; 2017 N. Franko. All rights reserved.</span><a class="btn" href="#">Subscribe</a></p>
+        </div>
     </footer>
-
+<script src="/assets/scripts/App.js"></script>
 </body>
 </html>

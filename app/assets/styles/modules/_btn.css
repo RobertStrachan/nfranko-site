@@ -13,4 +13,8 @@
             font-size: 1.25rem;
         }
     }
+
+    &--top {
+        margin: .5rem 0 .5rem 0;
+    }
 }

@@ -557,6 +557,10 @@ a {
     }
     }
 
+.btn--top {
+        margin: .5rem 0 .5rem 0;
+    }
+
 .wrapper {
     overflow: hidden;
     padding-left: 18px;
@@ -712,6 +716,7 @@ a {
         font-weight: 700;
     }
 
+<<<<<<< HEAD
 .section-title {
     font-size: 1.9rem;
     font-weight: 300;
@@ -773,10 +778,74 @@ a {
         padding: 0 1.8125rem 1px 1.8125rem;
         max-width: 404px;
         height: 645px;
+=======
+.site-footer {
+    background-color: #dbd9d9;
+    padding: .5rem 0;
+    text-align: center;
+    color: #FFF;
+}
+
+.site-footer__text {
+        display: block;
+        margin-bottom: 1rem;
+        font-weight: 200;
     }
 
 @media(min-width: 800px) {
 
+.site-footer__text {
+            display: inline;
+            margin-bottom: 0;
+            margin-right: 1.4rem
+    }
+    }
+
+.site-header {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+
+    
+}
+
+@media(min-width: 800px) {
+
+.site-header {
+        background-color: rgba(247,164,185, .3)
+
+    
+}
+    }
+
+.site-header__btn-container {
+        float: right;
+    }
+
+.site-header__menu-content {
+        display: none;
+    }
+
+@media(min-width: 800px) {
+
+.site-header__menu-content {
+            display: block
+    }
+    }
+
+.site-header__menu-icon {
+        width: 20px;
+        height: 20px;
+        background-color: #F7A4B9;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+>>>>>>> header
+    }
+
+@media(min-width: 800px) {
+
+<<<<<<< HEAD
 .book__description {
             padding-top: 4rem
     }
@@ -785,3 +854,41 @@ a {
 .book__description p {
             margin-bottom: .5;
         }
+=======
+.site-header__menu-icon {
+            display:none
+    }
+    }
+
+.primary-nav {
+    padding: 23px 0;
+}
+
+.primary-nav--pull-right {
+        float: right;
+    }
+
+.primary-nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+.primary-nav ul::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.primary-nav li {
+        list-style: none;
+        float: left;
+        padding-right: 20px;
+    }
+
+.primary-nav a {
+        color: #FFF;
+        font-weight: 300;
+        text-decoration: none;
+        padding: 20px 0;
+    }
+>>>>>>> header
