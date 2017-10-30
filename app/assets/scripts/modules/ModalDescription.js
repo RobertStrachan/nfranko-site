@@ -11,20 +11,11 @@ class ModalDescription {
 
     events() {
 
-        // this.modal.forEach(function(){
-        //     var that = this;
-        //     // Clicking the open modal button
-        //     that.openModalButton.click(this.openModal.bind(this));
-        
-        //     //clicking the close modal button
-        //     that.closeModalButton.click(this.closeModal.bind(this));
-        
-        // });
-        // Clicking the open modal button
-        this.openModalButton.click(this.openModal.bind(this));
+        // for(let i = 0, i < this.modal.length, i++) {
+            this.openModalButton.click(this.openModal.bind(this));
+            this.closeModalButton.click(this.closeModal.bind(this));
+        // }
 
-        //clicking the close modal button
-        this.closeModalButton.click(this.closeModal.bind(this));
   
 
     }
@@ -36,7 +27,7 @@ class ModalDescription {
     
     closeModal() {
         this.modal.removeClass("book__description--is-visible");
-        return false;
+
     }
 
 }

@@ -991,10 +991,8 @@ a {
         visibility: hidden;
         -webkit-transform: scale(1.2);
                 transform: scale(1.2);
-        -webkit-transition: -webkit-transform .3s ease-out;
-        transition: -webkit-transform .3s ease-out;
-        transition: transform .3s ease-out;
-        transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+        -webkit-transition: all .3s ease-out;
+        transition: all .3s ease-out;
 
         /* &--visbile-at-medium {
             display: none;
