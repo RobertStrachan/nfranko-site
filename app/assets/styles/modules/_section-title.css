@@ -8,4 +8,8 @@
         font-size: 3.75rem;
     }
 
+    &--white {
+        color: #FFF;
+    }
+
 }

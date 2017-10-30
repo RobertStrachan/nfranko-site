@@ -1,19 +1,32 @@
 import $ from 'jquery';
 
-class Modal {
+class ModalDescription {
     constructor() {
         this.closeModalButton = $('.book__modal--close');
         this.openModalButton = $('.book__modal--open');
         this.modal = $('.book__description');
+        // this.modal = document.getElementsByClassName('.book__description');
         this.events();
     }
 
     events() {
+
+        // this.modal.forEach(function(){
+        //     var that = this;
+        //     // Clicking the open modal button
+        //     that.openModalButton.click(this.openModal.bind(this));
+        
+        //     //clicking the close modal button
+        //     that.closeModalButton.click(this.closeModal.bind(this));
+        
+        // });
         // Clicking the open modal button
         this.openModalButton.click(this.openModal.bind(this));
 
         //clicking the close modal button
         this.closeModalButton.click(this.closeModal.bind(this));
+  
+
     }
 
     openModal() {
@@ -28,4 +41,4 @@ class Modal {
 
 }
 
-export default Modal;
+export default ModalDescription;

@@ -12,4 +12,5 @@
 @import "modules/_site-footer";
 @import "modules/_site-header";
 @import "modules/_primary-nav";
-@import "modules/_book"
+@import "modules/_book";
+@import "modules/_section-title";

@@ -16,5 +16,10 @@
 
     &--top {
         margin: .5rem 0 .5rem 0;
+        display: none;
+
+        @mixin atMedium {
+            display: block;
+        }
     }
 }
