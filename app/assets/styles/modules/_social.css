@@ -1,0 +1,65 @@
+.social {
+        position:absolute;
+        color: #FFF;
+        margin-top: .5rem;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            @mixin clearfix;
+        }
+        
+        li {
+            list-style: none;
+            display: inline-block;
+            padding-right: 12px;
+    
+            @mixin atMedium {
+                float: left;
+                display: block;
+                padding-right: 40px;
+            }
+        }
+
+        a {
+            color: #FFF;
+            font-weight: 300;
+            text-decoration: none;
+            padding: 5px 6px;
+            font-size: 1rem;
+            background-color: rgba($mainPink, .5);
+            width: 1.6rem;
+            height: 1.6rem;
+            background-color: $mainPink;
+            display: inline-block;
+            border-radius: 50%;
+    
+            @mixin atMedium {
+                padding: 20px 0;
+                font-size: 1.5rem;
+                background-color: transparent;
+                
+                &.is-current-link {
+                    color: rgba($mainRed, .5);
+                }
+            }
+        }
+
+        &--g {
+            text-align: center; */
+            line-height: 10px;
+            display: block;
+            padding-left: 0px;
+            position: relative;
+            top: -3px;
+            transform: scale(1.2);
+        }
+
+        &--f {
+            padding-left: 2px;
+            @mixin atMedium {
+
+            }
+        }
+
+}

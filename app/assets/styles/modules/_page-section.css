@@ -8,5 +8,6 @@
     &--pink {
         background-color: $mainPink;
         color: #fff;
+        z-index: 1;
     }
 }

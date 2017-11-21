@@ -2,15 +2,26 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#F7A4B9">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,300,400,500,700|Satisfy" rel="stylesheet">
     <title>N. Franko | Indie Romance Author</title>
     <meta name="keywords" content="eBooks, romantic comedies, romance, Amazon Kindle, indie authors">
-    <meta name="description" content="N. Franko is a romance writer living in Canada.">
+    <meta name="description" content="N. Franko writes romantic comedies and lives in Canada.">
     <link rel="stylesheet" href="temp/styles/styles.css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/fd007dd772.js"></script>
 </head>
 <body>
     <header class="site-header">
         <div class="wrapper">
+            <div class="social">
+                <ul>
+                        <li ><a href="https://www.facebook.com/Nfrankowrites/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook social--f" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/nfranko_writes" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/Nfrankowrites/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li ><a href="https://www.goodreads.com/author/show/17127357.N_Franko" target="_blank" rel="noopener noreferrer" ><span class="social--g">g</span></a></li>
+                </ul>        
+            </div>
             <div class="site-header__menu-icon">
                 <div class="site-header__menu-icon__middle"></div>              
             </div>
@@ -19,12 +30,11 @@
                     <a class="btn btn--top" href="#">Subscribe</a>
                 </div>
                 <nav class="primary-nav primary-nav--pull-right">
-                <ul>
-                    <li><a href="#books">Books</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                </ul>
-            </nav>
+                    <ul>
+                        <li><a href="#books" id="books-link">Books</a></li>
+                        <li><a href="#about" id ="about-link">About</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
@@ -39,13 +49,19 @@
       <div class="large-hero__text-content">
         <div class ="wrapper">
             <h1 class="large-hero__title">[N. Franko]</h1>
-            <h2 class="large-hero__subtitle">Indie Romance Author</h2>
-            <p class="large-hero__description"><strong>Happily Ever After</strong> is just page turn away...</p>
+            <!-- <h2 class="large-hero__subtitle">Indie Romance Author</h2> -->
             <a class ="btn btn--large" href="#">Subscribe</a>
-        </div class>
+            <p class="large-hero__description"><strong>Happily Ever After</strong> is just page turn away...</p>
+        </div>
+        <ul class="stores">
+                <li><a href="#">AMAZON</a></li>
+                <li><a href="#">ITUNES</a></li>
+                <li><a href="#">KOBO</a></li>
+                <li><a href="#">GOOGLE PLAY</a></li>
+            </ul>
       </div>
     </div>
-    <div id="#books" class="page-section">
+    <div id="books" class="page-section" data-matching-link="#books-link">
         <div class="wrapper">
             <h2 class="section-title">Books</h2>
             <div class="row row--gutters row--equal-height-at-medium">
@@ -86,9 +102,9 @@
              </div>        
         </div>   
     </div>
-    <div id="#about" class="page-section page-section--pink">
+    <div id="about" class="page-section page-section--pink" data-matching-link="#about-link">
         <div class="wrapper">
-            <h2 id="#about" class="section-title section-title--white">About</h2>
+            <h2 id="#about" class="section-title section-title--white" >About</h2>
             <div class="row row--gutters generic-content-container">
                 <div class="row__medium-4">
                     <img src="assets/images/typewriter-nfranko.jpg">
@@ -96,7 +112,6 @@
                 <div class="row__medium-8">
                     <h3 class="headline headline--white headline--small headline--narrow">N. Franko</h3>
                     <p>N.Franko is a writer and musician living in Canada.When she's not writing love stories or making music, she can be found taking pictures of old buildings and watching the latest Netflix original.Follow her on Twitter @NFranko_Writes for info on her next release.</p>
-                    <p>Chocolate dragée jujubes chocolate cake topping I love bonbon. Dragée brownie halvah I love chocolate cake. Croissant jujubes I love. Bonbon oat cake fruitcake cupcake ice cream soufflé bonbon.</p>
                 </div>
             </div>
             </div>

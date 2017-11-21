@@ -5,35 +5,20 @@ class ModalDescription {
         this.closeModalButton = $('.book__modal--close');
         this.openModalButton = $('.book__modal--open');
         this.modal = $('.book__description');
-        // this.modal = document.getElementsByClassName('.book__description');
         this.events();
     }
 
     events() {
-        for( var i = 0; i < this.openModalButton.length; i++) {
-            var current = i,
-                that = this;
-            this.openModalButton[i].addEventListener('click', function() {
-                that.modal[current].addClass("book__description--is-visible").bind(this);
-            });  
-        }
-            // this.openModalButton.click(this.openModal.bind(this));
-            // this.closeModalButton.click(this.closeModal.bind(this));
-
-    }
-
-    openModal() {
-        this.modal.addClass("book__description--is-visible");
-        return false;
-    }
-    
-    closeModal() {
-        this.modal.removeClass("book__description--is-visible");
-
-    }
-
-    toggleDescription() {
-        this.modal.toggleClass("book__description--is-visible");
+        var that = this;
+        this.modal.each(function(i) {
+            var currentBook = this;
+            that.openModalButton[i].addEventListener('click', function(){
+                $(currentBook).addClass("book__description--is-visible");
+            });
+            that.closeModalButton[i].addEventListener('click', function(){
+                $(currentBook).removeClass("book__description--is-visible")
+            });
+        });
     }
 
 }

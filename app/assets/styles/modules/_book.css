@@ -40,7 +40,7 @@
         max-width: 404px;
         opacity: 0;
         visibility: hidden;
-        transform: scale(1.2);
+        transform: scale(1.1);
         transition: all .3s ease-out;
 
         &--is-visible {
@@ -89,6 +89,14 @@
             font-size: 2rem;
             line-height: 26px;
         }
+
+        &:active {
+            transform: scale(.85);
+          }
+    
+        &:hover {
+            background-color: rgb(240, 116, 149);        
+        }
         
 
     }
@@ -109,6 +117,15 @@
         text-align: center;
         line-height: 23px;
         cursor: pointer;
+
+
+        &:active {
+            transform: scale(.85);
+          }
+    
+        &:hover {
+            background-color: rgb(240, 116, 149);        
+        }
 
         @mixin atMedium {
             width: 2rem;

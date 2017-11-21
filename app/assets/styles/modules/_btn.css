@@ -4,6 +4,7 @@
     text-decoration: none;
     padding: 1rem .75rem;
     display: inline-block;
+    border-radius: 5px;
 
     &--large {
        
@@ -12,6 +13,17 @@
         @mixin atSmall {
             font-size: 1.25rem;
         }
+        &:hover {
+            background-color: rgb(240, 116, 149);        
+        }
+    }
+
+    &:active {
+        transform: scale(.85);
+      }
+
+    &:hover {
+        background-color: rgb(240, 116, 149);        
     }
 
     &--top {
@@ -22,4 +34,5 @@
             display: block;
         }
     }
+
 }

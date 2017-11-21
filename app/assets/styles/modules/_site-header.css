@@ -9,7 +9,13 @@
     }
 
     @mixin atMedium {
+        position: fixed;
         background-color: rgba($mainPink, .3);
+       
+
+        &--dark {
+            background-color: rgba($mainPink, .8);            
+        }
     }
 
     &__btn-container {

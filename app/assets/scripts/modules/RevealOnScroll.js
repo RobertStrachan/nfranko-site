@@ -3,8 +3,8 @@ import waypoints from '../../../../node_modules/waypoints/lib/noframework.waypoi
 
 
 class RevealOnScroll {
-    constructor() {
-        this.itemsToReveal = $('.book')
+    constructor(els) {
+        this.itemsToReveal = els;       
         this.hideInitially();
         this.createWaypoints();
     }
