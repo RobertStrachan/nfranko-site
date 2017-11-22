@@ -10847,10 +10847,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var RevealOnScroll = function () {
-    function RevealOnScroll(els) {
+    function RevealOnScroll() {
         _classCallCheck(this, RevealOnScroll);
 
-        this.itemsToReveal = els;
+        this.itemsToReveal = (0, _jquery2.default)(".book, .about-row");
         this.hideInitially();
         this.createWaypoints();
     }
