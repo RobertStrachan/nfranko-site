@@ -45,6 +45,7 @@
             }
         }
 
+
         &--g {
             text-align: center; */
             line-height: 10px;
@@ -118,6 +119,31 @@
                 display: none;
             
             }
+        }
+        &--modal {
+            position: relative;
+            display: block;
+
+            @mixin atMedium {
+                width: 60%;
+                margin: 40px auto;
+            }
+
+
+
+            
+            ul {
+
+                margin-left: 5px;
+
+                @mixin atMedium {
+                    margin-left: 15rem;
+                }
+
+            }
+
+    
+
         }
 
 }

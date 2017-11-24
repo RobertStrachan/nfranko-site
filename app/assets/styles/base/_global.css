@@ -15,3 +15,9 @@ img {
 a {
     color: $mainRed;
 }
+
+input:focus {
+    outline: none;
+    border-color: $mainPink;
+    box-shadow: 3px 3px 12px rgba($mainPink, 0.8);
+}

@@ -35,4 +35,8 @@
         }
     }
 
+    &--form {
+        padding: 0.475rem 0.75rem;
+    }
+
 }
