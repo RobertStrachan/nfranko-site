@@ -70,7 +70,7 @@
         border: 5px solid $mainPink;
         width: 75%;
         margin: 0 auto;
-        padding: 5px;
+        padding: 5px 10px;
 
         @mixin atMedium {
             width: 100%;
@@ -80,9 +80,9 @@
     }
 
     &__form {
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
         @mixin atMedium {
-            margin: 1.5rem;;
+            margin-bottom: 5rem;
             padding: 0;
         }
 

@@ -64,8 +64,12 @@
         }
 
         &--bottom {
-            position: absolute;
-            margin-top: .4rem;
+            position: relative;
+            display: block;
+            width: 100%;
+            margin-top: 0;
+            margin-right: auto;
+            margin-left: auto; 
 
             ul {
                 margin: 0;
@@ -76,70 +80,37 @@
             li {
                 list-style: none;
                 display: inline-block;
-                padding-right: 50px;
+                padding-right: 10px;
         
             }
-    
-            a {
-                color: #FFF;
-                font-weight: 300;
-                text-decoration: none;
-                padding: 5px 6px;
-                font-size: 1rem;
-                background-color: rgba($mainPink, .5);
-                width: 1.6rem;
-                height: 1.6rem;
-                background-color: $mainPink;
-                display: inline-block;
-                border-radius: 50%;
-                    
-                    &.is-current-link {
-                        color: rgba($mainRed, .5);
-                    }
-                
-            }
-    
-            &--g {
-                text-align: center; */
-                line-height: 10px;
-                display: block;
-                padding-left: 0px;
-                position: relative;
-                top: -3px;
-                transform: scale(1.2);
-            }
-    
-            &--f {
-                padding-left: 2px;
-                @mixin atMedium {
-    
-                }
-            }
+
             @mixin atMedium {
-                display: none;
-            
+                opacity: 0;
+                visibility: hidden;
             }
+
         }
+
         &--modal {
             position: relative;
             display: block;
+            width: 100%;
+            margin-top: 0;
+            margin-right: auto;
+            margin-left: auto; 
+
 
             @mixin atMedium {
                 width: 60%;
                 margin: 40px auto;
+                opacity: 1;
+                visibility: visible;
             }
 
-
-
-            
             ul {
-
-                margin-left: 5px;
-
-                @mixin atMedium {
-                    margin-left: 15rem;
-                }
-
+                margin: 0;
+                padding: 0;
+                @mixin clearfix;
             }
 
     

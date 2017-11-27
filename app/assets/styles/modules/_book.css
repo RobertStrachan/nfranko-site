@@ -1,7 +1,8 @@
 .book {
     position: relative;
     margin-bottom: 4rem;
-    max-width: 404px;
+    max-width: 303px;
+    margin: 0 auto 5rem auto;
     
     
     &__title {
@@ -27,8 +28,7 @@
     }
 
     &__cover {
-        box-shadow: 10px 10px 5px #888888;
-        max-width: 404px;
+        max-width: 303px;
     }
 
     &__description {
@@ -38,10 +38,12 @@
         left: 0;
         padding: 0 1.8125rem 1px 1.8125rem;
         max-width: 404px;
+        max-height: 400px;
         opacity: 0;
         visibility: hidden;
         transform: scale(1.1);
         transition: all .3s ease-out;
+        overflow-y: auto;
 
         &--is-visible {
             opacity: 1;
@@ -52,6 +54,7 @@
         @mixin atMedium {
             padding-top: 4rem;
             height: 645px;
+            max-height: 490px;
         }
 
         p {
@@ -138,13 +141,49 @@
     }
 
     &__amazon-link {
+        position: relative;
         color: $mainRed;
         text-align: center;
         padding-top: 15px;
         font-size: 1.45rem;
 
         @mixin atMedium {
-            font-size: 2.4rem;
+            font-size: 2rem;
+        }
+    }
+
+    &__retail-links {
+        position:relative;
+        display: block;
+        color: #FFF;
+        margin: .5rem auto 2rem auto;
+        text-align: center;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            @mixin clearfix;
+        }
+        
+
+
+        a {
+            color: $mainPink;
+            font-weight: 300;
+            text-decoration: none;
+
+
+       
+    
+            @mixin atMedium {
+                padding: 20px 0;
+                font-size: 1.5rem;
+                background-color: transparent;
+                
+                &.is-current-link {
+                    color: rgba($mainRed, .5);
+                }
+            }
         }
     }
  

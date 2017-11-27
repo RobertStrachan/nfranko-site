@@ -2,7 +2,8 @@
     position: absolute;
     color: #FFF;
     width: 100%;
-    margin: 55px auto;
+    margin: 2rem auto;
+    padding-left: 0px;
 
 
     @mixin atMedium {
@@ -19,7 +20,7 @@
     li {
         list-style: none;
         display: inline-block;
-        padding-right: 12px;
+        padding-right: 10px;
 
         @mixin atMedium {
             padding-right: 40px;
@@ -28,15 +29,15 @@
 
     a {
         color: #FFF;
-        font-weight: 700;
+        font-weight: 400;
         text-decoration: none;
-        font-size: .9rem;
+        font-size: 1.2rem;
         display: block;
         text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 
         @mixin atMedium {
             padding: 20px 0;
-            font-size: 1.5rem;
+            font-size: 2rem;
             background-color: transparent;
             font-weight: 400;
             text-shadow: 1.5px 1.5px 3px rgba(0,0,0,0.4);

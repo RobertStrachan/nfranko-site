@@ -1,5 +1,12 @@
 .row {
+    &__about {
+        position: relative;
+        display: block;
+        width: 90%;
+        max-width: 500px;
+        margin: 0 auto;
 
+    }
     @mixin clearfix;
 
     &--gutters {
@@ -33,6 +40,8 @@
             float: left;
             width: 60%;
         }
+
+
     }
 
     /** Begin Equal Height Rules **/
