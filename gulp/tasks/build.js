@@ -32,7 +32,7 @@ gulp.task('optimizeImages',['deleteDistFolder', 'styles', 'scripts'], function()
 });
 
 gulp.task('usemin', ['deleteDistFolder'], function(){
-    return gulp.src("./app/index.html")
+    return gulp.src(["./app/index.html", "./app/CNAME"])
     .pipe(usemin({
         css: [function(){return rev()}, function(){return cssnano()}],
         js: [function(){return rev()}, function(){return uglify()}]
