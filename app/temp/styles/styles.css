@@ -1203,7 +1203,7 @@ input:focus {
 @media(min-width: 800px) {
 
 .book__retail-links a {
-                padding: 20px 0;
+                padding: 0;
                 font-size: 1.5rem;
                 background-color: transparent
         }
@@ -1240,7 +1240,7 @@ input:focus {
 
 .section-title--icon {
             padding-bottom: -2rem;
-            padding-top: 100px
+            padding-top: 20px
     }
     }
 
@@ -1478,7 +1478,7 @@ input:focus {
 @media(min-width: 800px) {
 
 .stores a {
-            padding: 20px 0;
+            padding: 0;
             font-size: 2rem;
             background-color: transparent;
             font-weight: 400;
@@ -1514,11 +1514,20 @@ input:focus {
 }
     }
 
+.modal__button {
+        /* display: block;
+        position: relative;
+        width: 100%;
+        margin: 0 auto; */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
 .modal--is-visible {
         opacity: 1;
         visibility: visible;
         -webkit-transform: scale(1);
-                transform: scale(1)
+                transform: scale(1);
 
     }
 

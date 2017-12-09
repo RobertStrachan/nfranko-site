@@ -34,9 +34,10 @@
         font-size: 1.2rem;
         display: block;
         text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+        
 
         @mixin atMedium {
-            padding: 20px 0;
+            padding: 0;
             font-size: 2rem;
             background-color: transparent;
             font-weight: 400;

@@ -16,10 +16,19 @@
         width: 50%;
     }
 
+    &__button {
+        /* display: block;
+        position: relative;
+        width: 100%;
+        margin: 0 auto; */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
     &--is-visible {
         opacity: 1;
         visibility: visible;
-        transform: scale(1)
+        transform: scale(1);
 
     }
 
