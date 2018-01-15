@@ -498,7 +498,7 @@ input:focus {
 
 .large-hero__title {
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Emilys Candy', cursive;
         font-size: 2.4rem;
         color: #C71F13;
         margin: 0;
@@ -529,7 +529,7 @@ input:focus {
     }
 
 .large-hero__description {
-        font-family: 'Satisfy', cursive;       
+        font-family: 'Allura', cursive;     
         font-weight: 100;
         color: #C71F13;
         font-size: 1.2rem;
@@ -1118,7 +1118,7 @@ input:focus {
         }
 
 .book__modal--open {
-        font-family: 'Satisfy', cursive; 
+        font-family: 'Allura', cursive;     
         width: 1.25rem;
         height: 1.25rem;
         border-radius: 50%;

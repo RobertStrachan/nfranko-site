@@ -17,7 +17,7 @@
 
     &__title {
         font-weight: 300;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Emilys Candy', cursive;
         font-size: 2.4rem;
         color: $mainRed;
         margin: 0;
@@ -42,7 +42,7 @@
     }
 
     &__description {
-        font-family: 'Satisfy', cursive;       
+        font-family: 'Allura', cursive;     
         font-weight: 100;
         color: $mainRed;
         font-size: 1.2rem;
