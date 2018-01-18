@@ -36,7 +36,11 @@
     }
 
     &--form {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
         padding: 0.475rem 0.75rem;
+
     }
 
 }

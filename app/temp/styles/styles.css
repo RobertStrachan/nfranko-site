@@ -597,7 +597,11 @@ input:focus {
     }
 
 .btn--form {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
         padding: 0.475rem 0.75rem;
+
     }
 
 .wrapper {
@@ -1610,9 +1614,16 @@ input:focus {
     }
     }
 
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
 .form {
     text-align: center;
     color: #FFF;
+    width: 96%;
 }
 
 .form__text {
