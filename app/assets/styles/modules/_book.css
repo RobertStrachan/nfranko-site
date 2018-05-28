@@ -159,6 +159,10 @@
         margin: .5rem auto 2rem auto;
         text-align: center;
 
+        h3 {
+            color: black;
+        }
+
         ul {
             margin: 0;
             padding: 0;

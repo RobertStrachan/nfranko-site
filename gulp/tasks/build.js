@@ -32,7 +32,7 @@ gulp.task('optimizeImages',['deleteDistFolder', 'styles', 'scripts'], function()
 });
 
 gulp.task('usemin', ['deleteDistFolder'], function(){
-    return gulp.src(["./app/index.html", "./app/CNAME", "./app/googlef608da580e59c8b6.html"])
+    return gulp.src(["./app/index.html", "./app/CNAME", "./app/googlef608da580e59c8b6.html", "./app/privacy.html"])
     .pipe(usemin({
         css: [function(){return rev()}, function(){return cssnano()}],
         js: [function(){return rev()}, function(){return uglify()}]

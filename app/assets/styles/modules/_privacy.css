@@ -1,0 +1,11 @@
+.privacy {
+
+    h1, h2 {
+        text-decoration: underline;
+    }
+
+    h4 {
+        font-weight: 300;
+        text-decoration: underline;
+    }
+}

@@ -2,6 +2,11 @@
     position: relative;
     border-bottom: 10px solid $mainPink;
 
+    &__privacy {
+        height: 100px;
+        background-color: #dbd9d9;
+    }
+
     &__image {
         display: block;
     }

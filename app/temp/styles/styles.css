@@ -482,6 +482,11 @@ input:focus {
 
 }
 
+.large-hero__privacy {
+        height: 100px;
+        background-color: #dbd9d9;
+    }
+
 .large-hero__image {
         display: block;
     }
@@ -644,6 +649,7 @@ input:focus {
         background-color: #F7A4B9;
         color: #fff;
         z-index: 1;
+        padding-bottom: 0;
     }
 
 .headline {
@@ -1187,6 +1193,10 @@ input:focus {
         text-align: center;
     }
 
+.book__retail-links h3 {
+            color: black;
+        }
+
 .book__retail-links ul {
             margin: 0;
             padding: 0;
@@ -1644,3 +1654,13 @@ input:focus {
 .form--control {
         padding: 0.375rem 0.75rem;
     }
+
+.privacy h1, .privacy h2 {
+        text-decoration: underline;
+    }
+
+.privacy h4 {
+        font-weight: 300;
+        text-decoration: underline;
+    }
+

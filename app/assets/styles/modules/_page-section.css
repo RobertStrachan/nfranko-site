@@ -9,5 +9,6 @@
         background-color: $mainPink;
         color: #fff;
         z-index: 1;
+        padding-bottom: 0;
     }
 }
